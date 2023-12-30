@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $darkGrey;
+  color: white;
+  .footerTexto {
+    width: 20rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .footerMobel {
+    padding: 1rem;
+  }
+  .footerRedes {
+    padding: 1rem;
+    a {
+      color: $lightGrey;
+      padding: 0.5rem;
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
