@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      {width > 1100 ? (
+      {width > 1200 ? (
         <nav>
           <div
             style={{
