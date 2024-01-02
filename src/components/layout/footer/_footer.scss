@@ -6,12 +6,14 @@ footer {
   background-color: $darkGrey;
   color: white;
   .footerTexto {
-    width: 20rem;
+    width: 15rem;
     text-align: center;
-    padding: 1rem;
   }
   .footerMobel {
     padding: 1rem;
+    img {
+      width: 10rem;
+    }
   }
   .footerRedes {
     padding: 1rem;
@@ -25,7 +27,15 @@ footer {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 500px) {
+  footer {
+    .footerTexto {
+      width: 20rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
   footer {
     flex-direction: row;
     justify-content: space-between;

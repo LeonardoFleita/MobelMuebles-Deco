@@ -20,7 +20,7 @@ const Navbar = () => {
               justifyContent: "flex-start",
             }}
           >
-            <Link className="menuLink" to="/">
+            <Link className="navbarMenuLink" to="/">
               <img
                 alt="logo"
                 src="https://res.cloudinary.com/drez01kou/image/upload/v1703792265/mobel-deco/logo/cgnnbcjwnxkvvar9xhvv.png"
@@ -29,22 +29,22 @@ const Navbar = () => {
           </div>
           <ul className="navbarMenu">
             <li>
-              <Link className="menuLink" to="/">
+              <Link className="navbarMenuLink" to="/">
                 Inicio
               </Link>
             </li>
             <li>
-              <Link className="menuLink" to="/mueblesALaMedida">
+              <Link className="navbarMenuLink" to="/mueblesALaMedida">
                 Muebles a la medida
               </Link>
             </li>
             <li>
-              <Link className="menuLink" to="/decoracion">
+              <Link className="navbarMenuLink" to="/decoracion">
                 Decoración
               </Link>
             </li>
             <li>
-              <Link className="menuLink" to="/contacto">
+              <Link className="navbarMenuLink" to="/contacto">
                 Contacto
               </Link>
             </li>

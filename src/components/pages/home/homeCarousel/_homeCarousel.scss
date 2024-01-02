@@ -1,6 +1,7 @@
 .homeCarouselContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
   .homeCarousel {
     width: 300px;
     margin: 0;

@@ -1,1 +1,8 @@
 @import "./homeCarousel/homeCarousel";
+@import "./homeAcercaDe/homeAcercaDe";
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

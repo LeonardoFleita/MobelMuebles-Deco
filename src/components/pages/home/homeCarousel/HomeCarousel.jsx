@@ -2,8 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import HomeCard from "./HomeCard";
 import { homeCarouselData } from "./homeCarouselData";
+import { WhatsApp } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 const HomeCarousel = () => {
+  let width = window.innerWidth;
+
   function Arrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -30,6 +34,21 @@ const HomeCarousel = () => {
           </div>
         ))}
       </Slider>
+      {width < 1200 && (
+        <Button
+          variant="contained"
+          color="error"
+          sx={{
+            borderRadius: "25px",
+            padding: "0.5rem",
+            minWidth: "0",
+            zIndex: "1",
+            bottom: "8rem",
+          }}
+        >
+          <WhatsApp fontSize="medium" />
+        </Button>
+      )}
     </div>
   );
 };

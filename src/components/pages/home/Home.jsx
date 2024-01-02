@@ -1,13 +1,13 @@
 import React from "react";
-import { Button } from "@mui/material";
-
 import HomeCarousel from "./homeCarousel/HomeCarousel";
+import HomeAcercaDe from "./homeAcercaDe/HomeAcercaDe";
 
 const Home = () => {
   return (
-    <div className="homeContainer">
-      <HomeCarousel />;
-    </div>
+    <main className="homeContainer">
+      <HomeCarousel />
+      <HomeAcercaDe />
+    </main>
   );
 };
 
