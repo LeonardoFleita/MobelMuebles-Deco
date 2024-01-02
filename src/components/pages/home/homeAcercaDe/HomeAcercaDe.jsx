@@ -29,6 +29,12 @@ const HomeAcercaDe = () => {
           <img
             src="https://res.cloudinary.com/drez01kou/image/upload/v1704141692/mobel-deco/acercaDe/yyggrd4dsq082gdbgvh7.png"
             alt="homeAcercaDeIconos"
+            className="homeAcercaDeIconosMD"
+          />
+          <img
+            src="https://res.cloudinary.com/drez01kou/image/upload/v1704233714/mobel-deco/acercaDe/ghs7zqz90co9b5xmubob.png"
+            alt="homeAcercaDeIconos"
+            className="homeAcercaDeIconosSM"
           />
         </div>
       </div>

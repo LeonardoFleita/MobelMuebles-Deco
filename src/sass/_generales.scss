@@ -18,18 +18,21 @@ a:active {
 
 .title {
   color: $red;
+  text-align: center;
   font-weight: 600;
   font-size: 26px;
 }
 
 .secondaryTitle {
   color: $red;
+  text-align: center;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 2rem;
 }
 
 p {
+  color: $darkGrey;
   font-size: 14px;
 }
 

@@ -1,62 +1,64 @@
-.homeCarouselContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  .homeCarousel {
-    width: 300px;
-    margin: 0;
-    .homeCarouselImg {
-      height: 400px;
-      box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
-      -webkit-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
-      -moz-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
-      display: grid;
-      .homeCard {
-        width: 13rem;
-        padding: 1rem;
-        margin: 5rem 0 0 2.9rem;
-        background-color: rgba(255, 255, 255, 0.8);
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        .homeCardTitle {
-          padding-bottom: 1rem;
-          font-size: 1.5rem;
-        }
-        .homeCardText {
-          padding-bottom: 1rem;
-          font-size: 0.8rem;
+@media (min-width: 320px) {
+  .homeCarouselContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .homeCarousel {
+      width: 318px;
+      margin: 0;
+      .homeCarouselImg {
+        height: 450px;
+        box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
+        -webkit-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
+        -moz-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
+        display: grid;
+        .homeCard {
+          width: 13rem;
+          padding: 1rem;
+          margin: 5rem 0 0 2.9rem;
+          background-color: rgba(255, 255, 255, 0.8);
+          border-radius: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .homeCardTitle {
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+          }
+          .homeCardText {
+            padding-bottom: 1rem;
+            font-size: 0.8rem;
+          }
         }
       }
+      .homeCarouselHome {
+        background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952641/mobel-deco/baners/rydaayveipjmi5jvpn3n.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      .homeCarouselMuebles {
+        background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952644/mobel-deco/baners/u8fy88bnxbsqbd5328hw.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      .homeCarouselDeco {
+        background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952650/mobel-deco/baners/ixfjkttvhreczdrmder1.jpg");
+        background-position: center;
+        background-size: cover;
+      }
     }
-    .homeCarouselHome {
-      background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952641/mobel-deco/baners/rydaayveipjmi5jvpn3n.jpg");
-      background-position: center;
-      background-size: cover;
+    .slick-dots {
+      position: relative;
+      z-index: 1;
+      bottom: 30px;
     }
-    .homeCarouselMuebles {
-      background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952644/mobel-deco/baners/u8fy88bnxbsqbd5328hw.jpg");
-      background-position: center;
-      background-size: cover;
-    }
-    .homeCarouselDeco {
-      background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1703952650/mobel-deco/baners/ixfjkttvhreczdrmder1.jpg");
-      background-position: center;
-      background-size: cover;
-    }
-  }
-  .slick-dots {
-    position: relative;
-    z-index: 1;
-    bottom: 30px;
   }
 }
 
 @media (min-width: 500px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 480px;
+      width: 490px;
       .homeCarouselImg {
         height: 500px;
         .homeCard {
@@ -71,14 +73,7 @@
 @media (min-width: 768px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 750px;
-      .homeCarouselImg {
-        height: 500px;
-        .homeCard {
-          width: 20rem;
-          margin: 11rem 0 0 5.1rem;
-        }
-      }
+      width: 760px;
     }
   }
 }

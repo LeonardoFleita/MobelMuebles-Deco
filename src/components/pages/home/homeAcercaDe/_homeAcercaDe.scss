@@ -1,19 +1,23 @@
-@media (min-width: 300px) {
+@media (min-width: 320px) {
   .homeAcercaDeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     .homeAcercaDeTexto {
-      width: 15rem;
+      width: 18rem;
       p {
         margin-bottom: 1rem;
+        text-align: justify;
         font-size: 14px;
         color: $darkGrey;
       }
       .homaAcercaDeIconos {
         margin-top: 1.5rem;
-        img {
-          width: 15rem;
+        .homeAcercaDeIconosMD {
+          display: none;
+        }
+        .homeAcercaDeIconosSM {
+          width: 18rem;
         }
       }
     }
@@ -28,10 +32,14 @@
 @media (min-width: 500px) {
   .homeAcercaDeContainer {
     .homeAcercaDeTexto {
-      width: 25rem;
+      width: 27rem;
       .homaAcercaDeIconos {
-        img {
-          width: 25rem;
+        .homeAcercaDeIconosMD {
+          display: inline;
+          width: 27rem;
+        }
+        .homeAcercaDeIconosSM {
+          display: none;
         }
       }
     }
@@ -50,6 +58,14 @@
     .homeAcercaDeTexto {
       width: 20rem;
       margin: 2rem 0.75rem 0 0;
+      .secondaryTitle {
+        text-align: start;
+      }
+      .homaAcercaDeIconos {
+        .homeAcercaDeIconosMD {
+          width: 25rem;
+        }
+      }
     }
     .homeAcercaDeImg {
       z-index: -1;
@@ -68,7 +84,7 @@
         font-size: 16px;
       }
       .homaAcercaDeIconos {
-        img {
+        .homeAcercaDeIconosMD {
           width: 35rem;
         }
       }
