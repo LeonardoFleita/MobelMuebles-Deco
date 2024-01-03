@@ -5,10 +5,12 @@ footer {
   align-items: center;
   background-color: $darkGrey;
 
-  .footerTexto {
+  .footerTextoContainer {
     width: 15rem;
     text-align: center;
-    color: white;
+    .footerTexto {
+      color: white;
+    }
   }
   .footerMobel {
     padding: 1rem;

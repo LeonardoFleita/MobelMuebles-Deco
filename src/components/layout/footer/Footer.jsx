@@ -13,8 +13,8 @@ const Footer = () => {
           alt="logo"
         />
       </div>
-      <div className="footerTexto">
-        <p>
+      <div className="footerTextoContainer">
+        <p className="footerTexto">
           Estamos convencidos de que la belleza, armonía y funcionalidad mejoran
           la calidad de vida de las personas.
         </p>
