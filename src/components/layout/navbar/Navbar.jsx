@@ -3,14 +3,13 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import React from "react";
 import MobileNavbar from "./MobileNavbar";
 import { Link } from "react-router-dom";
+import { phoneNumber, message } from "../../common/whatsapp";
 
 const Navbar = () => {
-  const phoneNumber = "+5491157409643";
-  const message = "Hola, quiero información sobre los muebles a medida";
   let width = window.innerWidth;
 
   return (
-    <>
+    <header>
       {width >= 1200 ? (
         <nav>
           <div
@@ -56,24 +55,25 @@ const Navbar = () => {
               justifyContent: "flex-end",
             }}
           >
-            <Button
-              variant="contained"
-              color="error"
-              startIcon={<WhatsAppIcon />}
-              size="small"
+            <a
+              href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
+              target="_blank"
             >
-              <a
-                href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
+              <Button
+                variant="contained"
+                color="error"
+                size="small"
+                startIcon={<WhatsAppIcon />}
               >
                 Habla con nosotros
-              </a>
-            </Button>
+              </Button>
+            </a>
           </div>
         </nav>
       ) : (
         <MobileNavbar />
       )}
-    </>
+    </header>
   );
 };
 

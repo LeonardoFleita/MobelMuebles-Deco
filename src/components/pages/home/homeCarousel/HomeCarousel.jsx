@@ -26,7 +26,7 @@ const HomeCarousel = () => {
   };
 
   return (
-    <div className="homeCarouselContainer">
+    <section className="homeCarouselContainer">
       <Slider {...settings} className="homeCarousel">
         {homeCarouselData.map((el) => (
           <div key={el.title} className={el.className}>
@@ -38,18 +38,20 @@ const HomeCarousel = () => {
         <Button
           variant="contained"
           color="error"
+          size="large"
           sx={{
             borderRadius: "25px",
             padding: "0.5rem",
             minWidth: "0",
             zIndex: "1",
             bottom: "8rem",
+            marginRight: "1.5rem",
           }}
         >
-          <WhatsApp fontSize="medium" />
+          <WhatsApp fontSize="large" />
         </Button>
       )}
-    </div>
+    </section>
   );
 };
 

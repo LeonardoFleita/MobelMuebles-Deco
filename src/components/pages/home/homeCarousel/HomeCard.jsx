@@ -6,7 +6,7 @@ const HomeCard = ({ title, text, button }) => {
 
   return (
     <div className="homeCard">
-      <h3 className="homeCardTitle">{title}</h3>
+      <h2 className="homeCardTitle">{title}</h2>
       <p className="homeCardText">{text}</p>
       <Button variant="contained" color="error" size="small">
         {button}

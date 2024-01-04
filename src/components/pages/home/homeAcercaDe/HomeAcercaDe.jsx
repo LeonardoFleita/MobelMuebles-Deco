@@ -3,8 +3,10 @@ import React from "react";
 const HomeAcercaDe = () => {
   return (
     <article className="homeAcercaDeContainer">
-      <div className="homeAcercaDeTexto">
-        <h1 className="secondaryTitle">Acerca de nosotros</h1>
+      <section className="homeAcercaDeTexto">
+        <header>
+          <h1 className="secondaryTitle">Acerca de nosotros</h1>
+        </header>
         <p>
           Hace mas de 20 años nos esforzamos por ser el referente de diseño de
           muebles a medida. Nuestro compromiso con cada trabajo, propuestas
@@ -37,13 +39,13 @@ const HomeAcercaDe = () => {
             className="homeAcercaDeIconosSM"
           />
         </div>
-      </div>
-      <div className="homeAcercaDeImg">
+      </section>
+      <section className="homeAcercaDeImg">
         <img
           src="https://res.cloudinary.com/drez01kou/image/upload/v1704138932/mobel-deco/acercaDe/uk8bxl4fzctbn0dzqvpr.png"
           alt="acercaDeMueblesAMedida"
         />
-      </div>
+      </section>
     </article>
   );
 };
