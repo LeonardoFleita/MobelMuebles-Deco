@@ -4,11 +4,18 @@ const HomeDudasFrecuentes = () => {
   return (
     <article className="homeDudasFrecuentes">
       <section className="homeDudasFrecuentesImgContainer">
-        <img
-          src="https://res.cloudinary.com/drez01kou/image/upload/v1704415476/mobel-deco/preguntasFrecuentes/po2sqq3rwimn2y4go0de.jpg"
-          alt="Dudas frecuentes imagen"
-          className="homeDudasFrecuentesImg"
-        />
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcSet="https://res.cloudinary.com/drez01kou/image/upload/v1704409386/mobel-deco/preguntasFrecuentes/nlfsyvx3y9br3o8avghc.jpg"
+            className="homeDudasFrecuentesImg"
+          />
+          <img
+            src="https://res.cloudinary.com/drez01kou/image/upload/v1704474234/mobel-deco/preguntasFrecuentes/rtyfyr19rqk57kcyv46h.jpg"
+            alt="dudas frecuentes imagen"
+            className="homeDudasFrecuentesImg"
+          />
+        </picture>
       </section>
       <section className="homeDudasFrecuentesTextContainer">
         <header>

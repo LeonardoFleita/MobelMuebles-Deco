@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 18rem;
     .homeDudasFrecuentesImgContainer {
       .homeDudasFrecuentesImg {
-        width: 18rem;
         display: none;
       }
     }
     .homeDudasFrecuentesTextContainer {
+      width: 18rem;
       .homeDudasFrecuentesText {
         margin-bottom: 1.2rem;
         h3 {
@@ -29,7 +28,9 @@
 
 @media (min-width: 500px) {
   .homeDudasFrecuentes {
-    width: 27rem;
+    .homeDudasFrecuentesTextContainer {
+      width: 27rem;
+    }
   }
 }
 
@@ -38,32 +39,43 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    width: 46rem;
-    gap: 3rem;
+    gap: 2rem;
     .homeDudasFrecuentesImgContainer {
       .homeDudasFrecuentesImg {
-        border-radius: 25px;
-        width: 17.5rem;
+        border-radius: 15px;
+        width: 20rem;
         display: inline;
       }
     }
     .homeDudasFrecuentesTextContainer {
+      width: 22rem;
       header {
         .secondaryTitle {
+          margin-bottom: 1.5rem;
           text-align: start;
         }
       }
-      width: 22rem;
       .homeDudasFrecuentesText {
-        margin-bottom: 1.2rem;
-        h3 {
-          font-size: 16px;
-          color: $darkGrey;
-          margin-bottom: 0.5rem;
+        p {
           text-align: start;
         }
-        p {
-          text-align: justify;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeDudasFrecuentes {
+    .homeDudasFrecuentesImgContainer {
+      .homeDudasFrecuentesImg {
+        width: 28rem;
+      }
+    }
+    .homeDudasFrecuentesTextContainer {
+      width: 27rem;
+      header {
+        .secondaryTitle {
+          margin-bottom: 2rem;
         }
       }
     }

@@ -2,8 +2,8 @@ import React from "react";
 
 const HomeAcercaDe = () => {
   return (
-    <article className="homeAcercaDeContainer">
-      <section className="homeAcercaDeTexto">
+    <article className="homeAcercaDe">
+      <section className="homeAcercaDeTextoContainer">
         <header>
           <h1 className="secondaryTitle">Acerca de nosotros</h1>
         </header>
@@ -27,20 +27,22 @@ const HomeAcercaDe = () => {
             a nuestros clientes:
           </strong>
         </p>
-        <div className="homaAcercaDeIconos">
-          <img
-            src="https://res.cloudinary.com/drez01kou/image/upload/v1704141692/mobel-deco/acercaDe/yyggrd4dsq082gdbgvh7.png"
-            alt="homeAcercaDeIconos"
-            className="homeAcercaDeIconosMD"
-          />
-          <img
-            src="https://res.cloudinary.com/drez01kou/image/upload/v1704233714/mobel-deco/acercaDe/ghs7zqz90co9b5xmubob.png"
-            alt="homeAcercaDeIconos"
-            className="homeAcercaDeIconosSM"
-          />
-        </div>
+        <section className="homaAcercaDeIconosContainer">
+          <picture>
+            <source
+              media="(min-width: 500px)"
+              srcSet="https://res.cloudinary.com/drez01kou/image/upload/v1704141692/mobel-deco/acercaDe/yyggrd4dsq082gdbgvh7.png"
+              className="homeAcercaDeIconos"
+            />
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1704233714/mobel-deco/acercaDe/ghs7zqz90co9b5xmubob.png"
+              alt="homeAcercaDeIconos"
+              className="homeAcercaDeIconos"
+            />
+          </picture>
+        </section>
       </section>
-      <section className="homeAcercaDeImg">
+      <section className="homeAcercaDeImgContainer">
         <img
           src="https://res.cloudinary.com/drez01kou/image/upload/v1704138932/mobel-deco/acercaDe/uk8bxl4fzctbn0dzqvpr.png"
           alt="acercaDeMueblesAMedida"

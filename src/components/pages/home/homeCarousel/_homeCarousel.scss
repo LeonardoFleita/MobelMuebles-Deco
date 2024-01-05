@@ -4,10 +4,10 @@
     flex-direction: column;
     align-items: flex-end;
     .homeCarousel {
-      width: 318px;
+      width: 19.8rem;
       margin: 0;
       .homeCarouselImg {
-        height: 450px;
+        height: 28.12rem;
         box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
         -webkit-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
         -moz-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
@@ -59,9 +59,9 @@
 @media (min-width: 500px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 490px;
+      width: 30.6rem;
       .homeCarouselImg {
-        height: 500px;
+        height: 31.25rem;
         .homeCard {
           width: 20rem;
           margin: 11rem 0 0 5.1rem;
@@ -74,7 +74,7 @@
 @media (min-width: 768px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 760px;
+      width: 47.5rem;
     }
   }
 }
@@ -82,9 +82,9 @@
 @media (min-width: 1200px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 1180px;
+      width: 73.75rem;
       .homeCarouselImg {
-        height: 600px;
+        height: 37.5rem;
         .homeCard {
           margin: 14.5rem 0 0 5rem;
         }
