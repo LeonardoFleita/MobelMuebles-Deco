@@ -1,0 +1,71 @@
+@media (min-width: 320px) {
+  .homeDudasFrecuentes {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    .homeDudasFrecuentesImgContainer {
+      .homeDudasFrecuentesImg {
+        width: 18rem;
+        display: none;
+      }
+    }
+    .homeDudasFrecuentesTextContainer {
+      .homeDudasFrecuentesText {
+        margin-bottom: 1.2rem;
+        h3 {
+          font-size: 16px;
+          color: $darkGrey;
+          margin-bottom: 0.5rem;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .homeDudasFrecuentes {
+    width: 27rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .homeDudasFrecuentes {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 46rem;
+    gap: 3rem;
+    .homeDudasFrecuentesImgContainer {
+      .homeDudasFrecuentesImg {
+        border-radius: 25px;
+        width: 17.5rem;
+        display: inline;
+      }
+    }
+    .homeDudasFrecuentesTextContainer {
+      header {
+        .secondaryTitle {
+          text-align: start;
+        }
+      }
+      width: 22rem;
+      .homeDudasFrecuentesText {
+        margin-bottom: 1.2rem;
+        h3 {
+          font-size: 16px;
+          color: $darkGrey;
+          margin-bottom: 0.5rem;
+          text-align: start;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

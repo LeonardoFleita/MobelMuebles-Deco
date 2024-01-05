@@ -23,7 +23,12 @@ const SillaGris = () => {
           href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
           target="_blank"
         >
-          <Button variant="contained" size="small" startIcon={<WhatsApp />}>
+          <Button
+            variant="contained"
+            size="small"
+            startIcon={<WhatsApp />}
+            color="secondary"
+          >
             Habla con nosotros
           </Button>
         </a>

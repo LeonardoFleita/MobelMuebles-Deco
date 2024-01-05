@@ -61,7 +61,7 @@ const Navbar = () => {
             >
               <Button
                 variant="contained"
-                color="error"
+                color="primary"
                 size="small"
                 startIcon={<WhatsAppIcon />}
               >

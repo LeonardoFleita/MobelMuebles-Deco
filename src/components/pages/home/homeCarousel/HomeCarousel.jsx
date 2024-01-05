@@ -37,7 +37,7 @@ const HomeCarousel = () => {
       {width < 1200 && (
         <Button
           variant="contained"
-          color="error"
+          color="primary"
           size="large"
           sx={{
             borderRadius: "25px",
