@@ -1,0 +1,82 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.28);
+  h3 {
+    color: $darkGrey;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 320px) {
+  .homeAsiTrabajamos {
+    margin-top: 3rem;
+    .homeAsiTrabajamosCarousel {
+      width: 20rem;
+      .slick-prev:before,
+      .slick-next:before {
+        opacity: 0;
+      }
+      .homeAsiTrabajamosCard {
+        @include card;
+        width: 13rem;
+        margin-left: 3.42rem;
+      }
+    }
+    .homeAsiTrabajamosTarjetas {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .homeAsiTrabajamos {
+    .homeAsiTrabajamosCarousel {
+      width: 31rem;
+      .homeAsiTrabajamosCard {
+        width: 23rem;
+        height: 13rem;
+        margin-left: 3.96rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .homeAsiTrabajamos {
+    .secondaryTitle {
+      text-align: start;
+    }
+    .homeAsiTrabajamosCarousel {
+      display: none;
+    }
+    .homeAsiTrabajamosTarjetas {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+      .homeAsiTrabajamosCard {
+        @include card;
+        width: 14rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeAsiTrabajamos {
+    .homeAsiTrabajamosTarjetas {
+      .homeAsiTrabajamosCard {
+        width: 20rem;
+      }
+    }
+  }
+}

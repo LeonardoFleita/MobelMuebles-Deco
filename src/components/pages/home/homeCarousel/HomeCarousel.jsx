@@ -19,6 +19,8 @@ const HomeCarousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    pauseOnHover: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <Arrow />,

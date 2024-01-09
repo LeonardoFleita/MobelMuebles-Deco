@@ -32,7 +32,7 @@ const HomeDudasFrecuentes = () => {
           <h3>¿Cuál sería el costo del proyecto?</h3>
           <p>
             Al no tener precio modular, hasta diseñar el mueble especifico para
-            cada cliente, NO tenemos precio estándar
+            cada cliente, NO tenemos precio estándar.
           </p>
         </div>
         <div className="homeDudasFrecuentesText">
@@ -40,7 +40,7 @@ const HomeDudasFrecuentes = () => {
           <p>
             La gente busca de tener muebles exclusivos, combinarlos y además que
             sean funcionales, ahí nuestro interés en ver que quiere realmente el
-            cliente y que las expectativas se cumplan
+            cliente y que las expectativas se cumplan.
           </p>
         </div>
       </section>
