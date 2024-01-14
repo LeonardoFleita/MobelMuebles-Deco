@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    width: 100vw;
     div {
       img {
         width: 7rem;
@@ -36,6 +37,7 @@
 
 @media (min-width: 1200px) {
   nav {
+    width: 75rem;
     div {
       img {
         width: 9rem;

@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeDudasFrecuentes = () => {
   return (
-    <article className="homeDudasFrecuentes">
+    <article className="homeDudasFrecuentes" id="contacto">
       <section className="homeDudasFrecuentesImgContainer">
         <picture>
           <source

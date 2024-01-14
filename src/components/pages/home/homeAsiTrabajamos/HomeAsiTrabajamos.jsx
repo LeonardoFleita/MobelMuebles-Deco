@@ -5,14 +5,13 @@ import Slider from "react-slick";
 
 const HomeAsiTrabajamos = () => {
   const settings = {
-    centerMode: "true",
+    centerMode: true,
     className: "center",
     infinite: true,
     autoplay: true,
     speed: 500,
     pauseOnHover: true,
     slidesToShow: 1,
-    slidesToScroll: 1,
   };
 
   return (

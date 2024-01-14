@@ -4,30 +4,52 @@
     flex-direction: column;
     align-items: flex-end;
     .homeCarousel {
-      width: 19.8rem;
+      width: 100vw;
       margin: 0;
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 10px;
+      }
+      .slick-next {
+        z-index: 1;
+        right: 22px;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        font-size: 30px;
+        line-height: 1;
+        opacity: 0.85;
+        color: white;
+      }
+
       .homeCarouselImg {
         height: 28.12rem;
         box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
         -webkit-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
         -moz-box-shadow: 0 -33px 25px -5px rgba(255, 255, 255, 1) inset;
-        .homeCard {
-          width: 13rem;
+        .homeCarouselCard {
+          width: 70vw;
           padding: 1rem;
-          margin: 5rem 0 0 3.5rem;
+          margin-top: 6.5rem;
+          margin-left: 15vw;
+          margin-right: 15vw;
           background-color: rgba(255, 255, 255, 0.8);
           border-radius: 10px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          .homeCardTitle {
+          .homeCarouselCardTitle {
             padding-bottom: 1rem;
             font-size: 25px;
             color: $darkGrey;
           }
-          .homeCardText {
+          .homeCarouselCardText {
             padding-bottom: 1rem;
-            font-size: 13px;
           }
         }
       }
@@ -58,12 +80,13 @@
 @media (min-width: 500px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 30.6rem;
       .homeCarouselImg {
         height: 31.25rem;
-        .homeCard {
-          width: 20rem;
-          margin: 11rem 0 0 5.1rem;
+        .homeCarouselCard {
+          width: 60vw;
+          margin-top: 11rem;
+          margin-left: 20vw;
+          margin-right: 20vw;
         }
       }
     }
@@ -73,7 +96,32 @@
 @media (min-width: 768px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 47.5rem;
+      .slick-slide {
+        display: inline;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 20px;
+      }
+      .slick-next {
+        z-index: 1;
+        right: 42px;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        font-size: 40px;
+        line-height: 1;
+        opacity: 0.85;
+        color: white;
+      }
+      .homeCarouselImg {
+        .homeCarouselCard {
+          width: 20rem;
+          margin-top: 11rem;
+          margin-left: 5rem;
+          margin-right: 0;
+        }
+      }
     }
   }
 }
@@ -81,13 +129,40 @@
 @media (min-width: 1200px) {
   .homeCarouselContainer {
     .homeCarousel {
-      width: 73.75rem;
+      .slick-prev {
+        z-index: 1;
+        left: 30px;
+      }
+      .slick-next {
+        z-index: 1;
+        right: 55px;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        font-size: 45px;
+        line-height: 1;
+        opacity: 0.85;
+        color: white;
+      }
       .homeCarouselImg {
         height: 37.5rem;
-        .homeCard {
-          margin: 14.5rem 0 0 5rem;
+        .homeCarouselCard {
+          width: 30rem;
+          margin-top: 14.5rem;
+          margin-left: 8vw;
         }
       }
     }
+  }
+}
+
+@media (min-width: 1400px) {
+  .slick-prev {
+    z-index: 1;
+    left: 50px;
+  }
+  .slick-next {
+    z-index: 1;
+    right: 75px;
   }
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
   let width = window.innerWidth;
 
   return (
-    <header>
+    <header className="headerPrincipal">
       {width >= 1200 ? (
         <nav>
           <div
@@ -33,8 +33,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="navbarMenuLink" to="/mueblesALaMedida">
-                Muebles a la medida
+              <Link className="navbarMenuLink" to="/mueblesAMedida">
+                Muebles a medida
               </Link>
             </li>
             <li>

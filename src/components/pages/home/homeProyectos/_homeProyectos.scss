@@ -1,0 +1,111 @@
+@media (min-width: 320px) {
+  .homeProyectos {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    header {
+      width: 15rem;
+    }
+    .homeProyectosCarouselContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+      }
+      .homeProyectosCarousel {
+        .slick-prev {
+          z-index: 1;
+          left: 10px;
+        }
+        .slick-next {
+          z-index: 1;
+          right: 22px;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+          font-size: 30px;
+          line-height: 1;
+          opacity: 0.85;
+          color: white;
+        }
+        width: 100vw;
+        div {
+          height: 18rem;
+          width: 100vw;
+          background-position: center;
+          background-size: cover;
+        }
+        .homeProyectosCarouselImg1 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167537/mobel-deco/cocina/vgebl4xvp0mzi3ypz6hw.jpg");
+        }
+        .homeProyectosCarouselImg2 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167537/mobel-deco/cocina/tttzdgfpx6vhfhgtqvuy.jpg");
+        }
+        .homeProyectosCarouselImg3 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167547/mobel-deco/living/hiykg6znvlz40xytuzdy.jpg");
+        }
+        .homeProyectosCarouselImg4 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167547/mobel-deco/living/zgehzymr3n4tnisxmjq7.jpg");
+        }
+        .homeProyectosCarouselImg5 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167557/mobel-deco/bano/twqaalbp5y56occhp43d.jpg");
+        }
+        .homeProyectosCarouselImg6 {
+          background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705167557/mobel-deco/bano/b04kysvkkogxrxt7jv1a.jpg");
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 500px) {
+  .homeProyectos {
+    header {
+      width: 20rem;
+    }
+    .homeProyectosCarouselContainer {
+      .homeProyectosCarousel {
+        div {
+          height: 24rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .homeProyectos {
+    header {
+      width: 25rem;
+    }
+    .homeProyectosCarouselContainer {
+      .homeProyectosCarousel {
+        width: 45rem;
+        div {
+          width: 45rem;
+          height: 26rem;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .homeProyectos {
+    .homeProyectosCarouselContainer {
+      .homeProyectosCarousel {
+        width: 62rem;
+        div {
+          width: 62rem;
+          height: 35rem;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+}

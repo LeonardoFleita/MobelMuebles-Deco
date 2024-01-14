@@ -1,7 +1,8 @@
-@mixin card {
+@mixin asiTrabajamoscard {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -20,15 +21,22 @@
   .homeAsiTrabajamos {
     margin-top: 3rem;
     .homeAsiTrabajamosCarousel {
-      width: 20rem;
+      width: 100vw;
       .slick-prev:before,
       .slick-next:before {
-        opacity: 0;
+        color: $red;
+      }
+      .slick-slide {
+        display: flex;
+        justify-content: center;
       }
       .homeAsiTrabajamosCard {
-        @include card;
-        width: 13rem;
-        margin-left: 3.42rem;
+        @include asiTrabajamoscard;
+        width: 65vw;
+        height: 12rem;
+        img {
+          width: 2rem;
+        }
       }
     }
     .homeAsiTrabajamosTarjetas {
@@ -37,14 +45,24 @@
   }
 }
 
+@media (min-width: 410px) {
+  .homeAsiTrabajamos {
+    .homeAsiTrabajamosCarousel {
+      .homeAsiTrabajamosCard {
+        width: 70vw;
+      }
+    }
+  }
+}
+
 @media (min-width: 500px) {
   .homeAsiTrabajamos {
     .homeAsiTrabajamosCarousel {
-      width: 31rem;
       .homeAsiTrabajamosCard {
-        width: 23rem;
-        height: 13rem;
-        margin-left: 3.96rem;
+        width: 22rem;
+        img {
+          width: 3rem;
+        }
       }
     }
   }
@@ -64,7 +82,7 @@
       justify-content: center;
       gap: 1rem;
       .homeAsiTrabajamosCard {
-        @include card;
+        @include asiTrabajamoscard;
         width: 14rem;
       }
     }
