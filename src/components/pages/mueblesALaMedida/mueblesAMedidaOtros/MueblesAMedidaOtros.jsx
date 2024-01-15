@@ -1,56 +1,55 @@
 import React from "react";
 import Slider from "react-slick";
 
-const MueblesAMedidaLiving = () => {
+const MueblesAMedidaOtros = () => {
   const settings = {
     infinite: true,
     speed: 500,
     autoplay: true,
     pauseOnHover: true,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
   return (
-    <article className="mueblesAMedidaLiving">
+    <article className="mueblesAMedidaOtros">
       <header>
-        <h2 className="secondaryTitle">Living para compartir en familia</h2>
+        <h2 className="secondaryTitle">Otros proyectos especiales</h2>
       </header>
-      <section className="mueblesAMedidaLivingTextoContainer">
-        <p className="mueblesAMedidaLivingTexto">
-          Transforma tu sala de estar en un oasis de elegancia y comodidad.
-          Diseñamos espacios acogedores con materiales resistentes, para que tu
-          living refleje tu estilo y perdure en el tiempo.
+      <section className="mueblesAMedidaOtrosTextoContainer">
+        <p className="mueblesAMedidaOtrosTexto">
+          Estos proyectos son hechos completamente a la medida de tu necesidad
         </p>
       </section>
-      <section className="mueblesAMedidaLivingCarouselContainer">
-        <Slider {...settings} className="mueblesAMedidaLivingCarousel">
+      <section className="mueblesAMedidaOtrosCarouselContainer">
+        <Slider {...settings} className="mueblesAMedidaOtrosCarousel">
           <div>
             <img
               src="https://res.cloudinary.com/drez01kou/image/upload/v1705270833/mobel-deco/mueblesAMedidaLiving/atmtaxrjr0sbhqg4hdym.jpg"
-              alt="Living"
+              alt="Otros"
             />
           </div>
           <div>
             <img
               src="https://res.cloudinary.com/drez01kou/image/upload/v1705270833/mobel-deco/mueblesAMedidaLiving/htpppr11vniyzmunigns.jpg"
-              alt="Living"
+              alt="Otros"
             />
           </div>
           <div>
             <img
               src="https://res.cloudinary.com/drez01kou/image/upload/v1705270833/mobel-deco/mueblesAMedidaLiving/qxlydcf3zq7hke3iuc2j.jpg"
-              alt="Living"
+              alt="Otros"
             />
           </div>
           <div>
             <img
               src="https://res.cloudinary.com/drez01kou/image/upload/v1705270833/mobel-deco/mueblesAMedidaLiving/hs2e3elq85zsewsdimqc.jpg"
-              alt="Living"
+              alt="Otros"
             />
           </div>
           <div>
             <img
               src="https://res.cloudinary.com/drez01kou/image/upload/v1705270833/mobel-deco/mueblesAMedidaLiving/clt3izydbmxez1p4ibi5.jpg"
-              alt="Living"
+              alt="Otros"
             />
           </div>
         </Slider>
@@ -59,4 +58,4 @@ const MueblesAMedidaLiving = () => {
   );
 };
 
-export default MueblesAMedidaLiving;
+export default MueblesAMedidaOtros;

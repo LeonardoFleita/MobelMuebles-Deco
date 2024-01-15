@@ -1,17 +1,21 @@
-import React from "react";
-import MueblesAMedidaCocina from "./mueblesAMedidaCocina/MueblesAMedidaCocina";
-import MueblesAMedidaLiving from "./mueblesAMedidaLiving/MueblesAMedidaLiving";
-import MueblesAMedidaBano from "./mueblesAMedidaBano/MueblesAMedidaBano";
+import MueblesAMedidaArticle from "./mueblesAMedidaArticle/MueblesAMedidaArticle";
 import SillaGris from "../../common/sillaGris/SillaGris";
+import { mueblesAMedidaCarouselesData } from "./mueblesAMedidaCarouselesData";
 import MueblesAMedidaHeader from "./MueblesAMedidaHeader/MueblesAMedidaHeader";
 
 const MueblesAMedida = () => {
   return (
     <main className="mueblesAMedida">
       <MueblesAMedidaHeader />
-      <MueblesAMedidaCocina />
-      <MueblesAMedidaLiving />
-      <MueblesAMedidaBano />
+      {mueblesAMedidaCarouselesData.map((el) => (
+        <MueblesAMedidaArticle
+          key={el.id}
+          title={el.title}
+          text={el.text}
+          images={el.images}
+          alt={el.alt}
+        />
+      ))}
       <SillaGris />
     </main>
   );

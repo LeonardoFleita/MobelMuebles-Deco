@@ -1,5 +1,5 @@
 @media (min-width: 320px) {
-  .mueblesAMedidaCocina {
+  .mueblesAMedidaArticle {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -7,12 +7,12 @@
     header {
       width: 15rem;
     }
-    .mueblesAMedidaCocinaTextoContainer {
+    .mueblesAMedidaArticleTextoContainer {
       text-align: justify;
       width: 18rem;
       margin-bottom: 2rem;
     }
-    .mueblesAMedidaCocinaCarouselContainer {
+    .mueblesAMedidaArticleCarouselContainer {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
       }
-      .mueblesAMedidaCocinaCarousel {
+      .mueblesAMedidaArticleCarousel {
         .slick-prev {
           z-index: 1;
           left: 10px;
@@ -62,15 +62,15 @@
 }
 
 @media (min-width: 500px) {
-  .mueblesAMedidaCocina {
+  .mueblesAMedidaArticle {
     header {
       width: 20rem;
     }
-    .mueblesAMedidaCocinaTextoContainer {
+    .mueblesAMedidaArticleTextoContainer {
       width: 27rem;
     }
-    .mueblesAMedidaCocinaCarouselContainer {
-      .mueblesAMedidaCocinaCarousel {
+    .mueblesAMedidaArticleCarouselContainer {
+      .mueblesAMedidaArticleCarousel {
         div {
           height: 28rem;
           img {
@@ -83,16 +83,16 @@
 }
 
 @media (min-width: 768px) {
-  .mueblesAMedidaCocina {
+  .mueblesAMedidaArticle {
     header {
       width: 25rem;
     }
-    .mueblesAMedidaCocinaTextoContainer {
+    .mueblesAMedidaArticleTextoContainer {
       text-align: center;
       width: 36rem;
     }
-    .mueblesAMedidaCocinaCarouselContainer {
-      .mueblesAMedidaCocinaCarousel {
+    .mueblesAMedidaArticleCarouselContainer {
+      .mueblesAMedidaArticleCarousel {
         width: 45rem;
         div {
           width: 45rem;
@@ -109,12 +109,12 @@
 }
 
 @media (min-width: 1200px) {
-  .mueblesAMedidaCocina {
-    .mueblesAMedidaCocinaTextoContainer {
+  .mueblesAMedidaArticle {
+    .mueblesAMedidaArticleTextoContainer {
       width: 45rem;
     }
-    .mueblesAMedidaCocinaCarouselContainer {
-      .mueblesAMedidaCocinaCarousel {
+    .mueblesAMedidaArticleCarouselContainer {
+      .mueblesAMedidaArticleCarousel {
         width: 62rem;
         div {
           width: 62rem;
