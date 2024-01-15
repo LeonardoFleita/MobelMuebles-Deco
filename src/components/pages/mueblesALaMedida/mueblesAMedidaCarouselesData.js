@@ -99,4 +99,32 @@ export const mueblesAMedidaCarouselesData = [
       },
     ],
   },
+  {
+    id: "mueblesOtros",
+    title: "Otros proyectos especiales",
+    text: "Estos proyectos son hechos completamente a la medida de tu necesidad",
+    alt: "Otros",
+    images: [
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/nbipiipfvateoa357ual.jpg",
+        id: "imgOtros01",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/lgomwzihukzzycyeewgy.jpg",
+        id: "imgOtros02",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349894/mobel-deco/otrosProyectos/p6ubc60xclhp57fog2yl.jpg",
+        id: "imgOtros03",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/tyhdiklmxqvmabw7meyk.jpg",
+        id: "imgOtros04",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/zx4bz4eszox9al5dib3r.jpg",
+        id: "imgOtros05",
+      },
+    ],
+  },
 ];
