@@ -10,65 +10,63 @@ const Navbar = () => {
 
   return (
     <header className="headerPrincipal">
-      {width >= 1200 ? (
-        <nav>
-          <div
-            style={{
-              width: "20rem",
-              display: "flex",
-              justifyContent: "flex-start",
-            }}
-          >
+      <nav className="navbarDesktop">
+        <div
+          style={{
+            width: "20rem",
+            display: "flex",
+            justifyContent: "flex-start",
+          }}
+        >
+          <Link className="navbarMenuLink" to="/">
+            <img
+              alt="logo"
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1703792265/mobel-deco/logo/cgnnbcjwnxkvvar9xhvv.png"
+            />
+          </Link>
+        </div>
+        <ul className="navbarMenu">
+          <li>
             <Link className="navbarMenuLink" to="/">
-              <img
-                alt="logo"
-                src="https://res.cloudinary.com/drez01kou/image/upload/v1703792265/mobel-deco/logo/cgnnbcjwnxkvvar9xhvv.png"
-              />
+              Inicio
             </Link>
-          </div>
-          <ul className="navbarMenu">
-            <li>
-              <Link className="navbarMenuLink" to="/">
-                Inicio
-              </Link>
-            </li>
-            <li>
-              <Link className="navbarMenuLink" to="/mueblesAMedida">
-                Muebles a medida
-              </Link>
-            </li>
-            <li>
-              <Link className="navbarMenuLink" to="/decoracion">
-                Decoración
-              </Link>
-            </li>
-            <li>Contacto</li>
-          </ul>
-          <div
-            style={{
-              width: "20rem",
-              display: "flex",
-              justifyContent: "flex-end",
-            }}
+          </li>
+          <li>
+            <Link className="navbarMenuLink" to="/mueblesAMedida">
+              Muebles a medida
+            </Link>
+          </li>
+          <li>
+            <Link className="navbarMenuLink" to="/decoracion">
+              Decoración
+            </Link>
+          </li>
+          <li>Contacto</li>
+        </ul>
+        <div
+          style={{
+            width: "20rem",
+            display: "flex",
+            justifyContent: "flex-end",
+          }}
+        >
+          <a
+            href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
+            target="_blank"
           >
-            <a
-              href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
-              target="_blank"
+            <Button
+              variant="contained"
+              color="primary"
+              size="small"
+              startIcon={<WhatsAppIcon />}
             >
-              <Button
-                variant="contained"
-                color="primary"
-                size="small"
-                startIcon={<WhatsAppIcon />}
-              >
-                Habla con nosotros
-              </Button>
-            </a>
-          </div>
-        </nav>
-      ) : (
-        <MobileNavbar />
-      )}
+              Habla con nosotros
+            </Button>
+          </a>
+        </div>
+      </nav>
+
+      <MobileNavbar />
     </header>
   );
 };

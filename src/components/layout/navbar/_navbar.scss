@@ -1,4 +1,7 @@
 @media (min-width: 320px) {
+  .navbarDesktop {
+    display: none;
+  }
   nav {
     display: flex;
     flex-direction: row;
@@ -36,6 +39,12 @@
 }
 
 @media (min-width: 1200px) {
+  .navbarDesktop {
+    display: flex;
+  }
+  .navbarMobile {
+    display: none;
+  }
   nav {
     width: 75rem;
     div {

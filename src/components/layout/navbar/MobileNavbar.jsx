@@ -65,7 +65,7 @@ export default function MobileNavbar() {
   );
 
   return (
-    <nav>
+    <nav className="navbarMobile">
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <div
