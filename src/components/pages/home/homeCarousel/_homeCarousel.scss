@@ -157,12 +157,16 @@
 }
 
 @media (min-width: 1400px) {
-  .slick-prev {
-    z-index: 1;
-    left: 50px;
-  }
-  .slick-next {
-    z-index: 1;
-    right: 75px;
+  .homeCarouselContainer {
+    .homeCarousel {
+      .slick-prev {
+        z-index: 1;
+        left: 50px;
+      }
+      .slick-next {
+        z-index: 1;
+        right: 75px;
+      }
+    }
   }
 }
