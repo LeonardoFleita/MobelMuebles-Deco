@@ -16,6 +16,11 @@ a:active {
   color: inherit;
 }
 
+.headerPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .title {
   color: $red;
   text-align: center;
@@ -36,9 +41,17 @@ p {
   font-size: 14px;
 }
 
+.whatsapp {
+  z-index: 1;
+  bottom: 7rem;
+  margin-right: 1.5rem;
+  position: fixed;
+  align-self: flex-end;
+}
+
 @media (min-width: 1200px) {
   .title {
-    font-size: 26px;
+    font-size: 32px;
   }
 
   .secondaryTitle {
@@ -47,5 +60,9 @@ p {
   }
   p {
     font-size: 16px;
+  }
+
+  .whatsapp {
+    display: none;
   }
 }

@@ -1,27 +1,21 @@
 @media (min-width: 320px) {
-  .homeAcercaDeContainer {
+  .homeAcercaDe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .homeAcercaDeTexto {
+    .homeAcercaDeTextoContainer {
       width: 18rem;
       p {
         margin-bottom: 1rem;
         text-align: justify;
-        font-size: 14px;
-        color: $darkGrey;
       }
-      .homaAcercaDeIconos {
-        margin-top: 1.5rem;
-        .homeAcercaDeIconosMD {
-          display: none;
-        }
-        .homeAcercaDeIconosSM {
+      .homaAcercaDeIconosContainer {
+        .homeAcercaDeIconos {
           width: 18rem;
         }
       }
     }
-    .homeAcercaDeImg {
+    .homeAcercaDeImgContainer {
       img {
         width: 15rem;
       }
@@ -30,20 +24,18 @@
 }
 
 @media (min-width: 500px) {
-  .homeAcercaDeContainer {
-    .homeAcercaDeTexto {
+  .homeAcercaDe {
+    .homeAcercaDeTextoContainer {
       width: 27rem;
-      .homaAcercaDeIconos {
-        .homeAcercaDeIconosMD {
-          display: inline;
+      .homaAcercaDeIconosContainer {
+        margin-top: 1.5rem;
+        .homeAcercaDeIconos {
           width: 27rem;
-        }
-        .homeAcercaDeIconosSM {
-          display: none;
         }
       }
     }
-    .homeAcercaDeImg {
+    .homeAcercaDeImgContainer {
+      margin-top: 1rem;
       img {
         width: 25rem;
       }
@@ -52,44 +44,51 @@
 }
 
 @media (min-width: 768px) {
-  .homeAcercaDeContainer {
+  .homeAcercaDe {
     flex-direction: row;
     justify-content: center;
-    .homeAcercaDeTexto {
-      width: 20rem;
-      margin: 2rem 0.75rem 0 0;
+    align-items: flex-start;
+    gap: 1.5rem;
+    .homeAcercaDeTextoContainer {
+      width: 19rem;
+      margin-top: 3rem;
+      padding-left: 0.25rem;
+      p {
+        text-align: start;
+      }
       .secondaryTitle {
         text-align: start;
       }
-      .homaAcercaDeIconos {
-        .homeAcercaDeIconosMD {
+      .homaAcercaDeIconosContainer {
+        .homeAcercaDeIconos {
           width: 25rem;
         }
       }
     }
-    .homeAcercaDeImg {
+    .homeAcercaDeImgContainer {
+      margin-top: 0;
       z-index: -1;
-      margin-left: 0.75rem;
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .homeAcercaDeContainer {
-    .homeAcercaDeTexto {
+  .homeAcercaDe {
+    .homeAcercaDeTextoContainer {
+      margin-top: 4rem;
       width: 30rem;
-      margin: 0rem 0.75rem 0 0;
+
       p {
         margin-bottom: 2rem;
         font-size: 16px;
       }
-      .homaAcercaDeIconos {
-        .homeAcercaDeIconosMD {
+      .homaAcercaDeIconosContainer {
+        .homeAcercaDeIconos {
           width: 35rem;
         }
       }
     }
-    .homeAcercaDeImg {
+    .homeAcercaDeImgContainer {
       img {
         width: 32rem;
       }

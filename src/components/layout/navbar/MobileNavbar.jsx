@@ -45,15 +45,11 @@ export default function MobileNavbar() {
           },
           {
             name: "Muebles a medida",
-            route: "/mueblesALaMedida",
+            route: "/mueblesAMedida",
           },
           {
             name: "Decoración",
             route: "/decoracion",
-          },
-          {
-            name: "Contacto",
-            route: "/contacto",
           },
         ].map((el, index) => (
           <ListItem key={el.name} disablePadding>

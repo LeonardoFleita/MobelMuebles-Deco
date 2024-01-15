@@ -4,14 +4,14 @@ import { phoneNumber, message } from "../../common/whatsapp";
 
 const SillaGris = () => {
   return (
-    <article className="sillaGrisContainer">
-      <section className="sillaGrisImg">
+    <article className="sillaGris">
+      <section className="sillaGrisImgContainer">
         <img
           src="https://res.cloudinary.com/drez01kou/image/upload/v1704395635/mobel-deco/gchtyh3n426xuyehuf0o.png"
           alt="silla gris"
         />
       </section>
-      <section className="sillaGrisTexto">
+      <section className="sillaGrisTextoContainer">
         <h2 className="sillaGrisTextoTitle">
           ¿Otro tipo de proyecto en mente?
         </h2>

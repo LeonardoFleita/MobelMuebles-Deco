@@ -1,0 +1,45 @@
+@media (min-width: 320px) {
+  .homeProovedores {
+    margin-top: 3rem;
+    .homeProovedoresImgContainer {
+      .homeProovedoresImgSm {
+        width: 18rem;
+      }
+      .homeProovedoresImgMd {
+        display: none;
+      }
+    }
+  }
+}
+@media (min-width: 500px) {
+  .homeProovedores {
+    .homeProovedoresImgContainer {
+      .homeProovedoresImgSm {
+        width: 25rem;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .homeProovedores {
+    .homeProovedoresImgContainer {
+      .homeProovedoresImgSm {
+        display: none;
+      }
+      .homeProovedoresImgMd {
+        display: inline;
+        width: 44rem;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .homeProovedores {
+    margin-top: 3rem;
+    .homeProovedoresImgContainer {
+      .homeProovedoresImgMd {
+        width: 55rem;
+      }
+    }
+  }
+}

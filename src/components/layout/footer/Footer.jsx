@@ -1,10 +1,8 @@
 import { Facebook, Instagram, WhatsApp } from "@mui/icons-material";
 import React from "react";
+import { message, phoneNumber } from "../../common/whatsapp";
 
 const Footer = () => {
-  const phoneNumber = "+5491157409643";
-  const message = "Hola, quiero información sobre los muebles a medida";
-
   return (
     <footer>
       <div className="footerMobel">
@@ -22,13 +20,20 @@ const Footer = () => {
       <div className="footerRedes">
         <a
           href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`}
+          target="_blank"
         >
           <WhatsApp fontSize="large" />
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100026160046799">
+        <a
+          href="https://www.facebook.com/profile.php?id=100026160046799"
+          target="_blank"
+        >
           <Facebook fontSize="large" />
         </a>
-        <a href="https://www.instagram.com/mobel_muebles_y_deco/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+        <a
+          href="https://www.instagram.com/mobel_muebles_y_deco/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+          target="_blank"
+        >
           <Instagram fontSize="large" />
         </a>
       </div>
