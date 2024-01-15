@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Rutas from "./Rutas";
 import Home from "../components/pages/home/Home";
 import MueblesAMedida from "../components/pages/mueblesALaMedida/MueblesAMedida";
-import Contacto from "../components/pages/contacto/Contacto";
+
 import Decoracion from "../components/pages/decoracion/Decoracion";
 
 const AppRouter = () => {
@@ -12,7 +12,6 @@ const AppRouter = () => {
         <Route path={"/"} element={<Home />} />
         <Route path={"/mueblesAMedida"} element={<MueblesAMedida />} />
         <Route path={"/decoracion"} element={<Decoracion />} />
-        <Route path={"/contacto"} element={<Contacto />} />
       </Route>
       <Route path="*" element={<h1>404 - Not found</h1>} />
     </Routes>

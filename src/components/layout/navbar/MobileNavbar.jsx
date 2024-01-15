@@ -51,10 +51,6 @@ export default function MobileNavbar() {
             name: "Decoración",
             route: "/decoracion",
           },
-          {
-            name: "Contacto",
-            route: "/contacto",
-          },
         ].map((el, index) => (
           <ListItem key={el.name} disablePadding>
             <Link to={el.route}>

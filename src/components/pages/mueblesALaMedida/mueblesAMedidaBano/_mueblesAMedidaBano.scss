@@ -1,5 +1,5 @@
 @media (min-width: 320px) {
-  .homeProyectos {
+  .mueblesAMedidaBano {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,12 @@
     header {
       width: 15rem;
     }
-    .homeProyectosCarouselContainer {
+    .mueblesAMedidaBanoTextoContainer {
+      text-align: justify;
+      width: 18rem;
+      margin-bottom: 2rem;
+    }
+    .mueblesAMedidaBanoCarouselContainer {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -16,7 +21,7 @@
         display: flex;
         justify-content: center;
       }
-      .homeProyectosCarousel {
+      .mueblesAMedidaBanoCarousel {
         .slick-prev {
           z-index: 1;
           left: 10px;
@@ -48,7 +53,7 @@
             top: -100%;
             bottom: -100%;
             margin: auto;
-            height: 19rem;
+            height: 25rem;
           }
         }
       }
@@ -57,16 +62,19 @@
 }
 
 @media (min-width: 500px) {
-  .homeProyectos {
+  .mueblesAMedidaBano {
     header {
       width: 20rem;
     }
-    .homeProyectosCarouselContainer {
-      .homeProyectosCarousel {
+    .mueblesAMedidaBanoTextoContainer {
+      width: 27rem;
+    }
+    .mueblesAMedidaBanoCarouselContainer {
+      .mueblesAMedidaBanoCarousel {
         div {
-          height: 29rem;
+          height: 28rem;
           img {
-            height: 29rem;
+            height: 38rem;
           }
         }
       }
@@ -75,12 +83,16 @@
 }
 
 @media (min-width: 768px) {
-  .homeProyectos {
+  .mueblesAMedidaBano {
     header {
       width: 25rem;
     }
-    .homeProyectosCarouselContainer {
-      .homeProyectosCarousel {
+    .mueblesAMedidaBanoTextoContainer {
+      text-align: center;
+      width: 36rem;
+    }
+    .mueblesAMedidaBanoCarouselContainer {
+      .mueblesAMedidaBanoCarousel {
         width: 45rem;
         div {
           width: 45rem;
@@ -88,7 +100,7 @@
           border-radius: 15px;
           img {
             width: 45rem;
-            height: 27rem;
+            height: 32rem;
           }
         }
       }
@@ -97,16 +109,19 @@
 }
 
 @media (min-width: 1200px) {
-  .homeProyectos {
-    .homeProyectosCarouselContainer {
-      .homeProyectosCarousel {
+  .mueblesAMedidaBano {
+    .mueblesAMedidaBanoTextoContainer {
+      width: 45rem;
+    }
+    .mueblesAMedidaBanoCarouselContainer {
+      .mueblesAMedidaBanoCarousel {
         width: 62rem;
         div {
           width: 62rem;
           height: 35rem;
           border-radius: 15px;
           img {
-            height: 35rem;
+            height: 48rem;
             width: 62rem;
           }
         }

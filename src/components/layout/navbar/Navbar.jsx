@@ -42,11 +42,7 @@ const Navbar = () => {
                 Decoración
               </Link>
             </li>
-            <li>
-              <Link className="navbarMenuLink" to="/contacto">
-                Contacto
-              </Link>
-            </li>
+            <li>Contacto</li>
           </ul>
           <div
             style={{

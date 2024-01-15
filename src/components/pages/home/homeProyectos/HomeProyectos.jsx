@@ -18,12 +18,42 @@ const HomeProyectos = () => {
       </header>
       <section className="homeProyectosCarouselContainer">
         <Slider {...settings} className="homeProyectosCarousel">
-          <div className="homeProyectosCarouselImg1"></div>
-          <div className="homeProyectosCarouselImg2"></div>
-          <div className="homeProyectosCarouselImg3"></div>
-          <div className="homeProyectosCarouselImg4"></div>
-          <div className="homeProyectosCarouselImg5"></div>
-          <div className="homeProyectosCarouselImg6"></div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167537/mobel-deco/cocina/vgebl4xvp0mzi3ypz6hw.jpg"
+              alt="Cocina"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167537/mobel-deco/cocina/tttzdgfpx6vhfhgtqvuy.jpg"
+              alt="Cocina"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167547/mobel-deco/living/hiykg6znvlz40xytuzdy.jpg"
+              alt="Living"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167547/mobel-deco/living/zgehzymr3n4tnisxmjq7.jpg"
+              alt="Living"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167557/mobel-deco/bano/twqaalbp5y56occhp43d.jpg"
+              alt="Baño"
+            />
+          </div>
+          <div>
+            <img
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1705167557/mobel-deco/bano/b04kysvkkogxrxt7jv1a.jpg"
+              alt="Baño"
+            />
+          </div>
         </Slider>
         <Link to={"/mueblesAMedida"}>
           <Button
