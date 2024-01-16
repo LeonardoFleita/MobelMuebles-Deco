@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { mueblesAMedidaCarouselesData } from "../mueblesAMedidaCarouselesData";
 
-const MueblesAMedidaArticle = ({ title, text, alt, images }) => {
+const MueblesAMedidaArticle = ({ title, text, alt, images, id }) => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -11,7 +11,7 @@ const MueblesAMedidaArticle = ({ title, text, alt, images }) => {
     slidesToScroll: 1,
   };
   return (
-    <article className="mueblesAMedidaArticle">
+    <article className="mueblesAMedidaArticle" id={id}>
       <header>
         <h2 className="secondaryTitle">{title}</h2>
       </header>

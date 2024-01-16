@@ -13,6 +13,7 @@ const MueblesAMedida = () => {
       {mueblesAMedidaCarouselesData.map((el) => (
         <MueblesAMedidaArticle
           key={el.id}
+          id={el.id}
           title={el.title}
           text={el.text}
           images={el.images}
