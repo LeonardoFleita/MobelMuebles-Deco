@@ -54,7 +54,7 @@ export const mueblesAMedidaCarouselesData = [
   {
     id: "mueblesLiving",
     title: "Living para compartir en familia",
-    text: "Transforma tu sala de estar en un oasis de elegancia y comodidad.Diseñamos espacios acogedores con materiales resistentes, para que tu living refleje tu estilo y perdure en el tiempo.",
+    text: "Transforma tu sala de estar en un oasis de elegancia y comodidad. Diseñamos espacios acogedores con materiales resistentes, para que tu living refleje tu estilo y perdure en el tiempo.",
     alt: "Living",
     images: [
       {

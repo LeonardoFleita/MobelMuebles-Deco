@@ -29,8 +29,8 @@ export default function MobileNavbar() {
     <Box
       sx={{
         width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-        backgroundColor: "#C5C5C5",
-        color: "black",
+        backgroundColor: "white",
+        color: "#515151",
         height: "100vh",
       }}
       role="presentation"
@@ -60,6 +60,13 @@ export default function MobileNavbar() {
             </Link>
           </ListItem>
         ))}
+        <ListItem disablePadding>
+          <ListItemButton>
+            <a href="#contacto">
+              <ListItemText primary="contacto" />
+            </a>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );

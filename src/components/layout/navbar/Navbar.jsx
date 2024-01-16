@@ -41,7 +41,9 @@ const Navbar = () => {
               Decoración
             </Link>
           </li>
-          <li>Contacto</li>
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
         </ul>
         <div
           style={{

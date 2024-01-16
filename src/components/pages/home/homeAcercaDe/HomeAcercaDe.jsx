@@ -9,16 +9,16 @@ const HomeAcercaDe = () => {
         </header>
         <p>
           Hace mas de 20 años nos esforzamos por ser el referente de diseño de
-          muebles a medida. Nuestro compromiso con cada trabajo, propuestas
+          muebles a medida. Nuestro compromiso con cada trabajo: propuestas
           adaptadas a cada cliente.
         </p>
         <p>
-          Valores como calidad, responsabilidad, prolijidad, atención
+          Valores como calidad, responsabilidad, prolijidad y atención
           personalizada es lo que acompaña cada proceso.
         </p>
         <p>
           Lo que nos distingue es el acompañamiento que tienen nuestros clientes
-          desde el inicio del proyecto. No solo diseñando muebles a medida sino
+          desde el inicio del proyecto. No sólo diseñando muebles a medida sino
           un desarrollo integral de la decoración de los espacios del hogar.
         </p>
         <p>
