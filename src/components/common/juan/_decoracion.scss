@@ -1,0 +1,9 @@
+@import "./encabezado/encabezadoDecoracion";
+@import "./galeriaDeco/galeriaDeco";
+
+.decoracionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

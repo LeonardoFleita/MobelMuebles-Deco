@@ -1,0 +1,162 @@
+@media (min-width: 320px) {
+  .Contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #F7F6F5;
+    color: $lightGrey;
+    
+    h2 {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      color: $red;
+    }
+   
+    .contactoDatos {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        h2 { 
+          visibility: hidden;
+          padding: 1rem;
+          height: 0rem;
+          color: $red;
+        }
+        .Datos {
+            display: flex;
+            align-items: center;
+            padding-top: 1rem;
+            color: $red;
+            p {
+                padding-left: 1rem;
+                font-size: 20px;
+            }
+            .Icono {
+              height: 40px;
+              width: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: $red;
+              border-radius: 50px;
+            }
+        }
+    }
+    
+    .contactoRedes {
+        height: 2rem;
+        visibility: hidden;
+        a {
+          color: $red;
+          padding: 0.5rem;
+          &:hover {
+            color: $lightGrey;
+          }
+        }
+      }
+
+      .Formulario {
+        width: 100%;
+        order: 1;
+
+        .ContactFields {
+            margin-bottom: 1rem;
+        }
+        .botonMensaje {
+          display: flex;
+          flex-direction: row;
+          align-items: center;         
+        }
+      }
+  }
+}
+
+@media (min-width: 780px) {
+  .Contacto {
+    display: flex;
+    flex-direction: row;
+    
+    
+    h2 {
+      visibility: hidden;
+      width: 0px;
+      
+    }
+   
+    .contactoDatos {
+        order: 1;
+        align-items: start;
+        padding-top: 1rem;
+        width: 40%;
+        h2 { 
+          visibility: visible;
+          padding: 0;
+          height: 1rem;
+          color: $red;
+        }
+        .Datos {
+            padding-top: 2rem;
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .contactoRedes {
+        height: 1rem;
+        padding-top: 1rem;
+        visibility: visible;
+      }
+
+      .Formulario {
+        width: 50%;
+        order: 2;
+
+        .ContactFields {
+          display: flex;
+          justify-content: space-between;
+            .MailSm {
+              width: 48%;
+            }
+            .TelefonoSm {
+              width: 48%;
+              margin-bottom: 0rem;
+            }
+        }
+        .botonMensaje {
+          .Boton {
+            width: 40%;
+          }       
+        }
+      }
+  }
+}
+
+@media (min-width: 1200px) {
+    .Contacto {
+      .contactoDatos{
+        padding-left: 7rem;
+        .Datos {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+      
+      .Formulario {
+        .ContactFields {
+         
+          .MailSm {
+            width: 49%;
+          }
+          .TelefonoSm {
+            width: 49%;
+            
+          }
+        }
+      }  
+    }
+}
