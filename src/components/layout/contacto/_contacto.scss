@@ -33,6 +33,9 @@
     .contactoFormularioContainer {
       grid-area: form;
       width: 18rem;
+      .contactoBotonContainer {
+        margin-bottom: 1.5rem;
+      }
     }
   }
 }
@@ -81,6 +84,9 @@
     }
     .contactoFormularioContainer {
       width: 20rem;
+      .contactoBotonContainer {
+        margin-bottom: 0rem;
+      }
     }
   }
 }

@@ -19,6 +19,9 @@ const Contacto = () => {
     Mensaje: "",
   };
 
+  const [formData, setFormData] = useState(inicialState);
+  const [error, setError] = useState("");
+
   const resetForm = () => {
     setFormData({
       Nombre: "",
@@ -27,9 +30,6 @@ const Contacto = () => {
       Mensaje: "",
     });
   };
-
-  const [formData, setFormData] = useState(inicialState);
-  const [error, setError] = useState("");
 
   const handleInputChange = (e) => {
     setFormData({
