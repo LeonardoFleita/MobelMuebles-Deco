@@ -1,10 +1,10 @@
 @media (min-width: 320px) {
-  .mueblesAMedidaHeader {
+  .decoracionHeader {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705505462/mobel-deco/baners/ogop4atf00ez7dw2domy.jpg");
+    background-image: url("https://res.cloudinary.com/drez01kou/image/upload/v1705505462/mobel-deco/baners/o4niomcpzpfydzgvdggs.jpg");
     background-position: center;
     background-size: cover;
     height: 16rem;
@@ -12,37 +12,40 @@
     box-shadow: 0px -150px 101px -2px rgba(255, 255, 255, 1) inset;
     -webkit-box-shadow: 0px -150px 101px -2px rgba(255, 255, 255, 1) inset;
     -moz-box-shadow: 0px -150px 101px -2px rgba(255, 255, 255, 1) inset;
-    .mueblesAMedidaHeaderTitleContainer {
-      opacity: 100%;
+    .decoracionHeaderTitleContainer {
+      width: 15rem;
       .secondaryTitle {
         color: $darkGrey;
       }
     }
-    .mueblesAMedidaHeaderRuta {
+    .decoracionHeaderRuta {
       display: none;
     }
   }
 }
 @media (min-width: 500px) {
-  .mueblesAMedidaHeader {
+  .decoracionHeader {
     height: 18rem;
+    .decoracionHeaderTitleContainer {
+      width: 25rem;
+    }
   }
 }
 
 @media (min-width: 768px) {
-  .mueblesAMedidaHeader {
+  .decoracionHeader {
     height: 22rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .mueblesAMedidaHeader {
+  .decoracionHeader {
     height: 28rem;
-    .mueblesAMedidaHeaderRuta {
+    .decoracionHeaderRuta {
       display: flex;
       justify-content: flex-start;
       width: 100vw;
-      .mueblesAMedidaHeaderRutaNavegacion {
+      .decoracionHeaderRutaNavegacion {
         width: 100%;
         display: inline-flex;
         justify-content: start;

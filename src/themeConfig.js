@@ -11,5 +11,8 @@ export const customTheme = createTheme({
     info: {
       main: "#c5c5c5",
     },
+    white: {
+      main: "white",
+    },
   },
 });

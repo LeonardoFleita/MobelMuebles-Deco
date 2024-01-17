@@ -26,7 +26,7 @@ a:active {
   color: $red;
   text-align: center;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .secondaryTitle {
@@ -50,9 +50,15 @@ p {
   align-self: flex-end;
 }
 
+@media (min-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+}
+
 @media (min-width: 1200px) {
   .title {
-    font-size: 32px;
+    font-size: 45px;
   }
 
   .secondaryTitle {

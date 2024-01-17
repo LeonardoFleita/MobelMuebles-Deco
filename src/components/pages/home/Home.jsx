@@ -9,6 +9,8 @@ import HomeComentarios from "./homeComentarios/HomeComentarios";
 import HomeProyectos from "./homeProyectos/HomeProyectos";
 import { message, phoneNumber } from "../../common/whatsapp";
 import Whatsapp from "../../layout/Whatsapp";
+import Contacto from "../../layout/contacto/Contacto";
+import Mapa from "../../layout/mapa/Mapa";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <HomeComentarios />
       <SillaGris phoneNumber={phoneNumber} message={message} />
       <HomeDudasFrecuentes />
+      <Contacto />
+      <Mapa />
       <Whatsapp phoneNumber={phoneNumber} message={message} />
     </main>
   );

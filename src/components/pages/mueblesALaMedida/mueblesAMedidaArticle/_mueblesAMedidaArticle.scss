@@ -13,30 +13,11 @@
       margin-bottom: 2rem;
     }
     .mueblesAMedidaArticleCarouselContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
       .slick-slide {
         display: flex;
         justify-content: center;
       }
       .mueblesAMedidaArticleCarousel {
-        .slick-prev {
-          z-index: 1;
-          left: 10px;
-        }
-        .slick-next {
-          z-index: 1;
-          right: 22px;
-        }
-        .slick-prev:before,
-        .slick-next:before {
-          font-size: 30px;
-          line-height: 1;
-          opacity: 0.85;
-          color: white;
-        }
         width: 100vw;
         div {
           height: 18rem;
