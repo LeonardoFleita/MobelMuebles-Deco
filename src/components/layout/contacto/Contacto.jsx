@@ -78,7 +78,7 @@ const Contacto = () => {
   };
 
   return (
-    <article className="contacto">
+    <article className="contacto" id="contacto">
       <header>
         <h2 className="secondaryTitle">Contactános</h2>
       </header>

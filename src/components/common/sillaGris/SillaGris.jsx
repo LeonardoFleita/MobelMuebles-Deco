@@ -4,7 +4,7 @@ import { phoneNumber, message } from "../../common/whatsapp";
 
 const SillaGris = () => {
   return (
-    <article className="sillaGris" id="contacto">
+    <article className="sillaGris">
       <section className="sillaGrisImgContainer">
         <img
           src="https://res.cloudinary.com/drez01kou/image/upload/v1704395635/mobel-deco/gchtyh3n426xuyehuf0o.png"
