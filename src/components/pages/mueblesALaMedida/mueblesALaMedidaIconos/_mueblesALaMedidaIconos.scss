@@ -1,11 +1,25 @@
 @media (min-width: 320px) {
   .mueblesAMedidaIconosContainer {
-    width: 18rem;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+    width: 14rem;
+    display: grid;
+    grid-template-areas:
+      "icon01 icon02"
+      "icon03 icon04";
+    justify-items: center;
+    #mueblesAMedidaIconos01 {
+      grid-area: icon01;
+    }
+    #mueblesAMedidaIconos02 {
+      grid-area: icon02;
+    }
+    #mueblesAMedidaIconos03 {
+      grid-area: icon03;
+    }
+    #mueblesAMedidaIconos04 {
+      grid-area: icon04;
+    }
     img {
-      width: 4rem;
+      width: 6rem;
     }
   }
 }
@@ -13,17 +27,17 @@
 @media (min-width: 500px) {
   .mueblesAMedidaIconosContainer {
     width: 27rem;
-
-    img {
-      width: 6rem;
-    }
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
   }
 }
 
 @media (min-width: 768px) {
   .mueblesAMedidaIconosContainer {
     width: 38rem;
-
+    margin-top: 2rem;
     img {
       width: 7rem;
     }

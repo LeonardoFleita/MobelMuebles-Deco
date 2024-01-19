@@ -1,11 +1,22 @@
 @media (min-width: 320px) {
   .decoracionIconosContainer {
-    width: 18rem;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between;
+    width: 14rem;
+    display: grid;
+    grid-template-areas:
+      "icon01 icon02"
+      "icon03 icon03";
+    justify-items: center;
+    #decoracionIconos01 {
+      grid-area: icon01;
+    }
+    #decoracionIconos02 {
+      grid-area: icon02;
+    }
+    #decoracionIconos03 {
+      grid-area: icon03;
+    }
     img {
-      width: 4rem;
+      width: 6rem;
     }
   }
 }
@@ -13,17 +24,16 @@
 @media (min-width: 500px) {
   .decoracionIconosContainer {
     width: 27rem;
-
-    img {
-      width: 6rem;
-    }
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
   }
 }
 
 @media (min-width: 768px) {
   .decoracionIconosContainer {
     width: 38rem;
-
+    margin-top: 2rem;
     img {
       width: 7rem;
     }

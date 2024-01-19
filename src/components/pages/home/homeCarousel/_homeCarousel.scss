@@ -50,6 +50,7 @@
           }
           .homeCarouselCardText {
             padding-bottom: 1rem;
+            font-size: 14px;
           }
         }
       }
@@ -117,9 +118,12 @@
       .homeCarouselImg {
         .homeCarouselCard {
           width: 20rem;
-          margin-top: 11rem;
+          margin-top: 10.2rem;
           margin-left: 5rem;
           margin-right: 0;
+          .homeCarouselCardText {
+            font-size: 16px;
+          }
         }
       }
     }

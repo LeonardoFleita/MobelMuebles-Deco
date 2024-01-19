@@ -48,14 +48,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 1rem;
     .homeAcercaDeTextoContainer {
       width: 19rem;
       margin-top: 3rem;
       padding-left: 0.25rem;
       p {
         text-align: start;
-        font-size: 14px;
       }
       .secondaryTitle {
         text-align: start;
@@ -67,9 +66,21 @@
       }
     }
     .homeAcercaDeImgContainer {
-      margin-top: 0;
+      margin-top: 3.9rem;
       z-index: -1;
+      img {
+        width: 26.1rem;
+      }
     }
+  }
+}
+
+@media (min-width: 800px) {
+  .homeAcercaDe {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
   }
 }
 
@@ -89,6 +100,7 @@
       }
     }
     .homeAcercaDeImgContainer {
+      margin-top: 0rem;
       img {
         width: 32rem;
       }
