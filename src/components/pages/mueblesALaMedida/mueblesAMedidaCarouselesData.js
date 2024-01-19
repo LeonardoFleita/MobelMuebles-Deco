@@ -18,7 +18,7 @@ export const mueblesAMedidaCarouselesData = [
         id: "imgCocina03",
       },
       {
-        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705268015/mobel-deco/mueblesAMedidaCocina/zf9ubnoxto27pnyrlyco.jpg",
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705692995/mobel-deco/mueblesAMedidaCocina/mkz5w4kyyvg7fxyxzipi.jpg",
         id: "imgCocina04",
       },
       {
@@ -116,14 +116,6 @@ export const mueblesAMedidaCarouselesData = [
       {
         img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349894/mobel-deco/otrosProyectos/p6ubc60xclhp57fog2yl.jpg",
         id: "imgOtros03",
-      },
-      {
-        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/tyhdiklmxqvmabw7meyk.jpg",
-        id: "imgOtros04",
-      },
-      {
-        img: "https://res.cloudinary.com/drez01kou/image/upload/v1705349895/mobel-deco/otrosProyectos/zx4bz4eszox9al5dib3r.jpg",
-        id: "imgOtros05",
       },
     ],
   },

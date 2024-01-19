@@ -55,13 +55,16 @@ const Contacto = () => {
     setError("");
 
     try {
-      const response = await fetch("https://formsubmit.co/yourmail@mail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://formsubmit.co/leo.fleita@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         console.log("Formulario enviado exitosamente");
@@ -134,7 +137,7 @@ const Contacto = () => {
         <form
           className="contactoFormulario"
           method="POST"
-          action="https://formsubmit.co/yourmail@mail.com"
+          action="https://formsubmit.co/leo.fleita@gmail.com"
           onSubmit={handleSubmit}
           noValidate
         >
