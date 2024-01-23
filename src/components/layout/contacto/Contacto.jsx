@@ -7,79 +7,9 @@ import {
   WhatsApp,
 } from "@mui/icons-material";
 import { phoneNumber, message } from "../../common/whatsapp";
-import { Button, TextField, Typography } from "@mui/material";
-
-import { useState } from "react";
+import Formulario from "./Formulario";
 
 const Contacto = () => {
-  const inicialState = {
-    Nombre: "",
-    Telefono: "",
-    Email: "",
-    Mensaje: "",
-  };
-
-  const [formData, setFormData] = useState(inicialState);
-  const [error, setError] = useState("");
-
-  const resetForm = () => {
-    setFormData({
-      Nombre: "",
-      Telefono: "",
-      Email: "",
-      Mensaje: "",
-    });
-  };
-
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    setError(" ");
-    e.preventDefault();
-
-    if (
-      formData.Nombre.trim() === "" ||
-      formData.Telefono.trim() === "" ||
-      formData.Email.trim() === "" ||
-      formData.Mensaje.trim() === ""
-    ) {
-      setError("Por favor, completa todos los campos.");
-      return;
-    }
-
-    setError("");
-
-    try {
-      const response = await fetch(
-        "https://formsubmit.co/leo.fleita@gmail.com",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      if (response.ok) {
-        console.log("Formulario enviado exitosamente");
-        setError("Formulario enviado exitosamente");
-        resetForm();
-      } else {
-        console.error("Error al enviar el formulario");
-        setError("Error al enviar el formulario. Inténtalo de nuevo.");
-      }
-    } catch (error) {
-      console.error("Error en la solicitud de envío:", error);
-      setError("Error en la solicitud de envío. Inténtalo de nuevo.");
-    }
-  };
-
   return (
     <article className="contacto" id="contacto">
       <header>
@@ -132,82 +62,8 @@ const Contacto = () => {
           </a>
         </div>
       </section>
-
       <section className="contactoFormularioContainer">
-        <form
-          className="contactoFormulario"
-          method="POST"
-          action="https://formsubmit.co/leo.fleita@gmail.com"
-          onSubmit={handleSubmit}
-          noValidate
-        >
-          <TextField
-            fullWidth
-            id="Name"
-            label="Nombre"
-            name="Nombre"
-            variant="outlined"
-            defaultValue={""}
-            size="small"
-            sx={{ marginBottom: "1rem" }}
-            onChange={handleInputChange}
-          />
-
-          <TextField
-            className="TelefonoSm"
-            id="phone"
-            label="Telefono"
-            type="number"
-            name="Telefono"
-            variant="outlined"
-            size="small"
-            sx={{ width: "100%", marginBottom: "1rem" }}
-            onChange={handleInputChange}
-          />
-          <TextField
-            className="MailSm"
-            id="email"
-            label="Correo Electronico"
-            type="email"
-            name="Email"
-            variant="outlined"
-            size="small"
-            sx={{ width: "100%", marginBottom: "1rem" }}
-            onChange={handleInputChange}
-          />
-
-          <TextField
-            fullWidth
-            id="message"
-            label="Mensaje"
-            name="Mensaje"
-            variant="outlined"
-            multiline
-            rows={4}
-            size="small"
-            sx={{ marginBottom: "1rem" }}
-            onChange={handleInputChange}
-          />
-          <div className="contactoBotonContainer">
-            <Button
-              className="Boton"
-              type="submit"
-              variant="contained"
-              value="enviar"
-            >
-              Enviar Mensaje
-            </Button>
-            {error && (
-              <Typography
-                variant="body2"
-                color="error"
-                sx={{ paddingLeft: "1rem" }}
-              >
-                {error}
-              </Typography>
-            )}
-          </div>
-        </form>
+        <Formulario />
       </section>
     </article>
   );
