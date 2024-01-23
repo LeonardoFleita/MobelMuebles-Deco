@@ -14,7 +14,7 @@ const Formulario = () => {
     onSubmit: async (formData, { setSubmitting }) => {
       try {
         const response = await fetch(
-          "https://formsubmit.co/leo.fleita@gmail.com",
+          "https://formsubmit.co/leofleita@gmail.com",
           {
             method: "POST",
             headers: {
@@ -75,7 +75,7 @@ const Formulario = () => {
       className="contactoFormulario"
       onSubmit={handleSubmit}
       method="POST"
-      action="https://formsubmit.co/leo.fleita@gmail.com"
+      action="https://formsubmit.co/leofleita@gmail.com"
     >
       <TextField
         fullWidth
