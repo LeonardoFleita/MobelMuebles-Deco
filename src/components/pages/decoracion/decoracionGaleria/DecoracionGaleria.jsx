@@ -11,7 +11,7 @@ const DecoracionGaleria = () => {
     slidesToScroll: 1,
   };
   return (
-    <article className="decoracionGaleria">
+    <article className="decoracionGaleria" id="decoracionGaleria">
       <section className="decoracionGaleriaTextContainer">
         <p className="decoracionGaleriaText">
           Transforma tu espacio con detalles que cuentan historias. Descubre

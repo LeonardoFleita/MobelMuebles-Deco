@@ -7,7 +7,7 @@ import {
   WhatsApp,
 } from "@mui/icons-material";
 import { phoneNumber, message } from "../../common/whatsapp";
-import Formulario from "./Formulario";
+import Formulario2 from "./Formulario";
 
 const Contacto = () => {
   return (
@@ -63,7 +63,7 @@ const Contacto = () => {
         </div>
       </section>
       <section className="contactoFormularioContainer">
-        <Formulario />
+        <Formulario2 />
       </section>
     </article>
   );
