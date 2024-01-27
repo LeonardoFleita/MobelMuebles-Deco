@@ -100,6 +100,34 @@ export const mueblesAMedidaCarouselesData = [
     ],
   },
   {
+    id: "mueblesComercio",
+    title: "Lo que tu comercio necesita",
+    text: "En mobel entendemos que cada espacio comercial es único y requiere soluciones a medida que reflejen identidad y funcionalidad. Te acompañamos en el proceso de elección y diseño. Somos tu socio en la creación de un espacio comercial excepcional!",
+    alt: "Comercio",
+    images: [
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1706384822/mobel-deco/comercios/awkexnqkrv9selteyaor.jpg",
+        id: "imgComercio01",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1706385284/mobel-deco/comercios/dwwsluynsbqnub1wcdej.jpg",
+        id: "imgComercio03",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1706384822/mobel-deco/comercios/gdcplthexmho2gksmixe.jpg",
+        id: "imgComercio04",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1706384822/mobel-deco/comercios/bogav0nvnxz2kk3kp1lv.jpg",
+        id: "imgComercio05",
+      },
+      {
+        img: "https://res.cloudinary.com/drez01kou/image/upload/v1706384822/mobel-deco/comercios/hcv4nzqztlahyljie3ri.jpg",
+        id: "imgComercio06",
+      },
+    ],
+  },
+  {
     id: "mueblesOtros",
     title: "Otros proyectos especiales",
     text: "Estos proyectos son hechos completamente a la medida de tu necesidad",

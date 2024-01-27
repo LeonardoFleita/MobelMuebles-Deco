@@ -21,9 +21,9 @@ const MueblesALaMedidaIconos = () => {
           alt="Baño ícono"
         />
       </a>
-      <a href="#mueblesOtros" id="mueblesAMedidaIconos04">
+      <a href="#mueblesComercio" id="mueblesAMedidaIconos04">
         <img
-          src="https://res.cloudinary.com/drez01kou/image/upload/v1705353715/mobel-deco/mueblesAMedidaHeader/m6wqqqe5flkvjkdq50n8.png"
+          src="https://res.cloudinary.com/drez01kou/image/upload/v1706385777/mobel-deco/mueblesAMedidaHeader/cjcxz0yxb5ymbzfk8cox.png"
           alt="Otros ícono"
         />
       </a>
