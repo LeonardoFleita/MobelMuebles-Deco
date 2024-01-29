@@ -31,11 +31,11 @@ const HomeAcercaDe = () => {
           <picture>
             <source
               media="(min-width: 500px)"
-              srcSet="https://res.cloudinary.com/drez01kou/image/upload/v1704141692/mobel-deco/acercaDe/yyggrd4dsq082gdbgvh7.png"
+              srcSet="https://res.cloudinary.com/drez01kou/image/upload/v1706552251/mobel-deco/acercaDe/cnehrtdcrqbtfi9x5kx2.png"
               className="homeAcercaDeIconos"
             />
             <img
-              src="https://res.cloudinary.com/drez01kou/image/upload/v1704233714/mobel-deco/acercaDe/ghs7zqz90co9b5xmubob.png"
+              src="https://res.cloudinary.com/drez01kou/image/upload/v1706552252/mobel-deco/acercaDe/mib0ogs2at2vuccelhws.png"
               alt="homeAcercaDeIconos"
               className="homeAcercaDeIconos"
             />
