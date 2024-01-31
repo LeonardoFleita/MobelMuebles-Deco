@@ -63,7 +63,7 @@ export default function MobileNavbar() {
         <ListItem disablePadding>
           <ListItemButton>
             <a href="#contacto">
-              <ListItemText primary="contacto" />
+              <ListItemText primary="Contacto" />
             </a>
           </ListItemButton>
         </ListItem>
